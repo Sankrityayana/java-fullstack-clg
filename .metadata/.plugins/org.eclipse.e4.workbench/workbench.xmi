@@ -304,13 +304,11 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_3vBPqtopEe-Zhul3QXMnpg" containerData="8057" selectedElement="_3vBPq9opEe-Zhul3QXMnpg">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_3vBPq9opEe-Zhul3QXMnpg" containerData="6822" selectedElement="_3vBPrdopEe-Zhul3QXMnpg" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_3vBPqtopEe-Zhul3QXMnpg" containerData="8057" selectedElement="_3vBPttopEe-Zhul3QXMnpg">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_3vBPq9opEe-Zhul3QXMnpg" containerData="6822" selectedElement="_3vBPrNopEe-Zhul3QXMnpg" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_3vBPrNopEe-Zhul3QXMnpg" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_MFgPUNokEe-yNo1AcsIIjw"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_3vBPrdopEe-Zhul3QXMnpg" containerData="2500" selectedElement="_3vBPrtopEe-Zhul3QXMnpg">
                   <children xsi:type="basic:PartStack" xmi:id="_3vBPrtopEe-Zhul3QXMnpg" elementId="org.eclipse.mylyn.tasks.ui.views.tasksMStack" containerData="5000" selectedElement="_3vBPr9opEe-Zhul3QXMnpg">
-                    <tags>active</tags>
-                    <tags>noFocus</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_3vBPr9opEe-Zhul3QXMnpg" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_3u8XINopEe-Zhul3QXMnpg" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:Mylyn</tags>
@@ -343,6 +341,7 @@
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_3vBPttopEe-Zhul3QXMnpg" elementId="bottom" containerData="3178" selectedElement="_3vBPu9opEe-Zhul3QXMnpg">
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_3vBPt9opEe-Zhul3QXMnpg" elementId="org.eclipse.ui.views.ProblemView" ref="_MGAlo9okEe-yNo1AcsIIjw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -424,7 +423,7 @@
         <tags>EditorStack</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <children xsi:type="basic:Part" xmi:id="_goDT4Nx1Ee-PYMNIrxcoWw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SortArrayList.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SortArrayList.java&quot; partName=&quot;SortArrayList.java&quot; title=&quot;SortArrayList.java&quot; tooltip=&quot;example1/src/example1/SortArrayList.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/example1/src/example1/SortArrayList.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;19&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SortArrayList.java&quot; partName=&quot;SortArrayList.java&quot; title=&quot;SortArrayList.java&quot; tooltip=&quot;example1/src/example1/SortArrayList.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/example1/src/example1/SortArrayList.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;603&quot; selectionTopPixel=&quot;62&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -539,6 +538,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_dbT10NoqEe-Zhul3QXMnpg" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -635,8 +636,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view linkWithEditor=&quot;true&quot; presentation=&quot;org.eclipse.mylyn.tasks.ui.categorized&quot;>&#xD;&#xA;&lt;sorter groupBy=&quot;CATEGORY_QUERY&quot;>&#xD;&#xA;&lt;sorter>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled0 sortDirection=&quot;1&quot; sortKey=&quot;DUE_DATE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled1 sortDirection=&quot;1&quot; sortKey=&quot;SCHEDULED_DATE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled2 sortDirection=&quot;1&quot; sortKey=&quot;PRIORITY&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled3 sortDirection=&quot;1&quot; sortKey=&quot;RANK&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled4 sortDirection=&quot;1&quot; sortKey=&quot;DATE_CREATED&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled5 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled6 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled7 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled8 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized0 sortDirection=&quot;1&quot; sortKey=&quot;PRIORITY&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized1 sortDirection=&quot;1&quot; sortKey=&quot;RANK&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized2 sortDirection=&quot;1&quot; sortKey=&quot;DATE_CREATED&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized3 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized4 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized5 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized6 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized7 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized8 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;/sorter>&#xD;&#xA;&lt;/sorter>&#xD;&#xA;&lt;filteredTreeFindHistory/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Mylyn</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_33pnMNopEe-Zhul3QXMnpg" elementId="org.eclipse.mylyn.tasks.ui.views.tasks">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -668,7 +667,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LxuXsNokEe-yNo1AcsIIjw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_IP0McNxvEe-PYMNIrxcoWw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_LC9NVdokEe-yNo1AcsIIjw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WeIO0Nx7Ee-y_8e1jAeU3w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_LC9NVdokEe-yNo1AcsIIjw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LxuXsdokEe-yNo1AcsIIjw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -676,8 +675,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Lxvl0NokEe-yNo1AcsIIjw" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_IP320NxvEe-PYMNIrxcoWw" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_LC3GlNokEe-yNo1AcsIIjw"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_IP5E8NxvEe-PYMNIrxcoWw" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_LC5i_tokEe-yNo1AcsIIjw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WeKrENx7Ee-y_8e1jAeU3w" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_LC3GlNokEe-yNo1AcsIIjw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WeMgQNx7Ee-y_8e1jAeU3w" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_LC5i_tokEe-yNo1AcsIIjw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Lxvl0dokEe-yNo1AcsIIjw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -710,7 +709,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LxyCENokEe-yNo1AcsIIjw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_IP66INxvEe-PYMNIrxcoWw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_LC8mVdokEe-yNo1AcsIIjw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WeQKoNx7Ee-y_8e1jAeU3w" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_LC8mVdokEe-yNo1AcsIIjw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LxypINokEe-yNo1AcsIIjw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

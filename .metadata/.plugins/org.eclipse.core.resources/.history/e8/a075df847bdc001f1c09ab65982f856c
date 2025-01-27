@@ -12,7 +12,7 @@ public class SortArrayList {
 		list1.add("Apple");
 		list1.add("Banana");
 		list1.add("Grapes");
-		
+		System.out.println(list1.indexOf("Apple"));
 		//Sorting the list
 		Collections.sort(list1);
 		
@@ -20,10 +20,6 @@ public class SortArrayList {
 		for(String fruit:list1)
 			System.out.println(fruit);
 		
-		System.out.println(list1.indexOf("Apple"));
-		System.out.println(list1.indexOf("Grapes"
-				+ ""
-				+ ""));
 		System.out.println("Sorting numbers...");
 		
 		//Creating a list of numbers
