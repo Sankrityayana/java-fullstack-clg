@@ -30,13 +30,20 @@ public class DemoServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		response.setContentType("text/html");
-		PrintWriter out = response.getWriter();
-		
-		ServletContext config = getServletContext();
-		String Driver  = config.getInitParameter("dname");
-		out.print("driver is " + Driver);
-		out.close();
+		try {
+			response.setContentType("text/html");
+			PrintWriter out = response.getWriter();
+			
+			ServletContext context = getServletContext();
+			context.setAttribute("company", "IBM");
+			
+			out.println("Welcome to first servlet");
+			out.println("<a href='DemoServlet2'>visit</a>");
+			
+			out.close();
+		} catch(Exception e) {
+			System.out.println(e);
+		}
 	}
 
 	/**
